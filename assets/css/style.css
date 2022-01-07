@@ -97,6 +97,7 @@ main div:nth-of-type(5){
     top:40%;
     right:11%;
     z-index: 4;
+    animation: myAnim 10s ease 0s infinite normal forwards;
 }
 
     /* pic smushing done */
@@ -147,6 +148,52 @@ main div p a:hover{
     opacity: 1;
     font-weight: bolder;
 }
+/* animation - help by Ilhan :D */
 
+@keyframes myAnim {
+    0% {
+    transform: translate(0);
+    }
+
+    10% {
+    transform: translate(-2px, -2px);
+    }
+
+    20% {
+    transform: translate(2px, -2px);
+    }
+
+    30% {
+    transform: translate(-2px, 2px);
+    }
+
+    40% {
+    transform: translate(2px, 2px);
+    }
+
+    50% {
+    transform: translate(-2px, -2px);
+    }
+
+    60% {
+    transform: translate(2px, -2px);
+    }
+
+    70% {
+    transform: translate(-2px, 2px);
+    }
+
+    80% {
+    transform: translate(-2px, -2px);
+    }
+
+    90% {
+    transform: translate(2px, -2px);
+    }
+
+    100% {
+    transform: translate(0);
+    }
+}
 
 /* main done */
